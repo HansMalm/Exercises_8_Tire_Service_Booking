@@ -9,6 +9,10 @@ public class SummerTireChange extends Service {
         this.serviceDuration = serviceDuration;
     }
 
+    public String getServiceDuration() {
+        return serviceDuration;
+    }
+
     @Override
     public double calculateServicePrice() {
         return getBasePrice() + 15;

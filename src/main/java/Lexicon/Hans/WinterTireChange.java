@@ -9,6 +9,10 @@ public class WinterTireChange extends Service {
         this.serviceDuration = serviceDuration;
     }
 
+    public String getServiceDuration() {
+        return serviceDuration;
+    }
+
     @Override
     public double calculateServicePrice() {
         return getBasePrice() + 10;

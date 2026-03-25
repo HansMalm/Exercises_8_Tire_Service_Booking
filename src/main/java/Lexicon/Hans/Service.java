@@ -4,9 +4,9 @@ public abstract class Service {
 
     private int id;
     private String name;
-    private double basePrice;
+    private final int basePrice;
 
-    public Service(int id, String name, double basePrice) {
+    public Service(int id, String name, int basePrice) {
         this.id = id;
         this.name = name;
         this.basePrice = basePrice;

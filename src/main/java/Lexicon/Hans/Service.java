@@ -31,4 +31,6 @@ public abstract class Service {
     public double getBasePrice() {
         return basePrice;
     }
+
+    public abstract int calculatePrice();
 }
